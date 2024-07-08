@@ -9,6 +9,22 @@ Data Analysis Using Power BI
 1 .Formula to create the Latest month total bills.
 
   `Latest Month Wait List = CALCULATE(SUM(All_Data[Total]),All_Data[Archive_Date] = MAX(All_Data[Archive_Date]))`
+  
+2 .Formula to create the PY Latest month total bills.
+
+  `PY Latest Month Wait List = CALCULATE(SUM(All_Data[Total]),All_Data[Archive_Date] = EDATE(MAX(All_Data[Archive_Date]),-12))`
+
+3 .Formula to create the Average of the total bills.
+
+  `Average = AVERAGE(All_Data[Total])`
+
+4 .Formula to create the Medain of the total bills.
+
+  `Median = MEDIAN(All_Data[Total])`
+
+5 .Formula to create the Switch for Average and median button.
+
+  `Avg/Med Wait List = SWITCH(VALUES('Calculation Method'[Cal Methods]),"Average",[Average],"Median",[Median])`
 
 
 
