@@ -1,6 +1,11 @@
 # Hospital_2018-2021_-Dashboard
 It's a project about Data Visualization for user for the hospital past few years for data about inpatients and outpatients for year 2018-2021.
 
+### Steps to be followed before creating the visual dashboard:-
+1. Click `Get Data` and improt the folder inpatient and outpatient seperatly and during importing process choose the `combine and load data` instade of `combine and transform` option.
+2. Then go to the tranform field and then go the the `Home` tab and `Append` option.
+3. After appened process choose the new append file just in case if you needed the previous data form the inpatient and outpatient data files.
+
 Data Analysis Using Power BI
 ============================
 
