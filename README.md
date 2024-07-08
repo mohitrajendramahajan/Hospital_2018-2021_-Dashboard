@@ -6,7 +6,10 @@ Data Analysis Using Power BI
 
 ### Formulas used for measure clms:-
 
-`= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
+1 .Formula to create the Latest month total bills.
+`Latest Month Wait List = CALCULATE(SUM(All_Data[Total]),All_Data[Archive_Date] = MAX(All_Data[Archive_Date]))`
+
+
 
 HERE ARE SOME REVIEW PHOTOS FOR THE DASHBOARD:
 1. Summary Page for Hospital Deatils<br><br>
