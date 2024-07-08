@@ -7,7 +7,8 @@ Data Analysis Using Power BI
 ### Formulas used for measure clms:-
 
 1 .Formula to create the Latest month total bills.
-`Latest Month Wait List = CALCULATE(SUM(All_Data[Total]),All_Data[Archive_Date] = MAX(All_Data[Archive_Date]))`
+
+  `Latest Month Wait List = CALCULATE(SUM(All_Data[Total]),All_Data[Archive_Date] = MAX(All_Data[Archive_Date]))`
 
 
 
